@@ -1,4 +1,4 @@
-function solution(n, arr1, arr2) {
+const solution = (n, arr1, arr2) => {
     const twoNum1 = [];
     const twoNum2 = [];
     const answer = Array.from({length:n}, () => '');
