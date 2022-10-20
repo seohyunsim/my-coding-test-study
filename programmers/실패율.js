@@ -1,4 +1,4 @@
-const solution = (N, stages) => {
+function solution(N, stages) {
   const answer = [];
   let players = stages.length;
 
