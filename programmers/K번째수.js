@@ -1,4 +1,4 @@
-const solution = (array, commands) => {
+function solution(array, commands) {
   const answer = [];
   let newArr = [];
 
@@ -9,4 +9,4 @@ const solution = (array, commands) => {
     answer.push(newArr[commands[i][2] - 1]);
   }
   return answer;
-};
+}
