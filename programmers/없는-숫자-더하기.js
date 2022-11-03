@@ -1,4 +1,4 @@
-function solution(numbers) {
+const solution = (numbers) => {
   let answer = 0;
 
   for (let i = 0; i < 10; i++) {
@@ -6,4 +6,4 @@ function solution(numbers) {
   }
 
   return answer;
-}
+};
