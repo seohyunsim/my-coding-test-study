@@ -1,4 +1,4 @@
-function solution(x, n) {
+const solution = (x, n) => {
   const answer = [];
   let num = 0;
 
@@ -7,4 +7,4 @@ function solution(x, n) {
     answer.push(num);
   }
   return answer;
-}
+};
