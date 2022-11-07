@@ -1,4 +1,4 @@
-function solution(n) {
+const solution = (n) => {
   const answer = [];
 
   function hanoi(n, from, to, other) {
@@ -11,4 +11,4 @@ function solution(n) {
   }
   hanoi(n, 1, 3, 2);
   return answer;
-}
+};
